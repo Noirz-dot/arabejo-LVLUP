@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: #1A1A1A;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -11,15 +11,21 @@ header {
   display: flex;
   justify-content: center;
   gap: 25px;
+  border-bottom: 1px solid #E5E5E5;
 
 }
 
+h1 {
+  color: #FFD400;
+  font-size: 36px;
+  margin: 0;
+}
 
 nav {
   background-color: #1A1A1A;
   padding: 15px;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 25px;
 }
 
@@ -34,4 +40,42 @@ nav a:hover {
   background-color: #FFD400;
   font-size: 18px;
   color: #1a1a1a;
+}
+
+.navLogo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section {
+  background-color: #F7F7F7;
+  margin: 20px;
+  padding: 25px;
+  
+}
+
+footer {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 25px;
+  margin-top: 30px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FFD400;
+  color: #1A1A1A;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: #1A1A1A;
+  color: #FFD400;
 }
